@@ -1,0 +1,33 @@
+.contact-slide-down {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, background-color 0.3s ease;
+  background-color: transparent;
+}
+
+.contact-slide-down.show {
+  max-height: 500px; /* Sesuaikan dengan tinggi maksimum yang Anda inginkan */
+  background-color: #4a4a4a; /* Warna abu-abu doff untuk latar belakang luar */
+  border-radius: 8px; /* Membuat sudut kotak sedikit melengkung */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan sedikit bayangan */
+  padding: 16px; /* Menambahkan padding di dalam kotak */
+  margin-top: 8px; /* Memberikan sedikit jarak dari navbar */
+}
+
+.contact-slide-down.show .contact-content {
+  background-color: #000000; /* Warna hitam untuk latar belakang dalam */
+  border-radius: 4px; /* Membuat sudut kotak dalam sedikit melengkung */
+  padding: 12px; /* Menambahkan padding di dalam kotak hitam */
+}
+
+/* Gaya tambahan untuk konten di dalam kotak */
+.contact-slide-down.show p,
+.contact-slide-down.show a {
+  color: #e0e0e0; /* Warna teks yang lebih terang untuk kontras */
+  margin-bottom: 8px; /* Jarak antar baris */
+}
+
+.contact-slide-down.show a:hover {
+  color: #ffffff; /* Warna teks saat hover */
+  text-decoration: underline;
+}

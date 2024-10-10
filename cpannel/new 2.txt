@@ -1,0 +1,9 @@
+081321211717
+Added the database “med42881_bukutamu”.
+You have successfully created a MySQL user named “med42881_homemedika”.
+
+
+
+medika2024$
+
+MEDIKACOM123$
